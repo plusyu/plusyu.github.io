@@ -1,0 +1,16 @@
+---
+layout: page
+title: Hello World!
+tagline: Supporting tagline
+---
+{% include JB/setup %}
+
+{% for post in site.posts limit:20 offset:0 %}<section>
+        <blockquote>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <small>{{ post.date | date:"%Y-%m-%d" }}</small>
+        </blockquote>
+        <p>{{ post.content | strip_html | truncatewords: 20 }} <a href="{{ post.url }}">[全文]</a></p>
+      </section>
+      <hr>
+      {% endfor %}
