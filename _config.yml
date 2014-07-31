@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: yu
+      title: 現實のポ蕅劇
 
 description: Stylish Jekyll Theme
 author:
