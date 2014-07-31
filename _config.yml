@@ -12,17 +12,16 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: wuyx
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
+  name: wuyx
+  email: gdwuyx@gmail.com
+  github: wuyx
   pinterest: asd123
   linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: So do you want to take a leap of faith or become an old man, filled with regret, waiting to die alone?
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
