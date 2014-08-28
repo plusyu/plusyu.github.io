@@ -23,3 +23,8 @@ sudo port install subversion-javahlbindings
 
 然后放弃这玩意。
 安装javahl，其实只要在安装subclipse的时候，勾选SVNKit就可以了。无言。。。。。。。。。。。。。。。。。。。。。。。。。
+
+
+git add .  
+git commit -m 'init'
+git push origin
