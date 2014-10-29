@@ -195,7 +195,7 @@ ul.dropdown-menu>li>a>i.fa {
 }
 .text, pre, #ws, #message {
 	font-family: Monaco;
-	font-size: 10pt;
+	font-size: 12pt;
 	border-radius: 3px;
 	color: #006e6d;
 	background-color: #F8F8F8;
@@ -210,7 +210,7 @@ ul.dropdown-menu>li>a>i.fa {
 .pre {
 	border: 1px solid #CCCCCC;
 	overflow: auto;
-	padding: 4px 8px;
+	padding: 2px 4px;
 }
 
 .pre > text {
