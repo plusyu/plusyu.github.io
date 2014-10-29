@@ -203,14 +203,14 @@ ul.dropdown-menu>li>a>i.fa {
 
 .text {
 	border: 1px solid #EAEAEA;
-	margin: 0 2px;
-	padding: 0 5px;
+	margin: 0 0px;
+	padding: 0 2px;
 }
 
 .pre {
 	border: 1px solid #CCCCCC;
 	overflow: auto;
-	padding: 2px 4px;
+	padding: 0px 0px;
 }
 
 .pre > text {
