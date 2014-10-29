@@ -183,41 +183,4 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
-/* 后续添加  */
-
-#message {
-	border-radius: 6px;
-	border: 1px solid #ccc;
-	display:block;
-	width:100%;
-	height:60px;
-	margin:0px 0px;
-}
-.text, pre, #ws, #message {
-	font-family: Monaco;
-	font-size: 10pt;
-	border-radius: 3px;
-	color: #006e6d;
-	background-color: #F8F8F8;
-}
-
-.text {
-	border: 1px solid #EAEAEA;
-	margin: 0 0px;
-	padding: 0 2px;
-}
-
-.pre {
-	border: 1px solid #CCCCCC;
-	overflow: auto;
-	padding: 0px 0px;
-}
-
-.pre > text {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
-
-#ws { background-color: #f8f8f8; }
 
