@@ -183,25 +183,17 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
-
-.code, pre, #ws, #message {
+/* 后续添加  */
+.text-style {
 	font-family: Monaco;
-	font-size: 16pt;
+	font-size: 12pt;
 	border-radius: 3px;
 	background-color: #F8F8F8;
 	color: inherit;
-}
-
-.code {
 	border: 1px solid #EAEAEA;
 	margin: 0 2px;
-	padding: 0 5px;
-}
-
-.pre {
-	border: 1px solid #CCCCCC;
+	padding: 0 5px 10px 0;
 	overflow: auto;
-	padding: 4px 8px;
 }
 
 pre > code {
