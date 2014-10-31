@@ -120,6 +120,10 @@ article.home h6 {
 	color: #f2756a;
 }
 
+.home{
+	border-bottom: solid 1px #CCC;
+}
+
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
