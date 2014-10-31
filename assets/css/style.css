@@ -121,6 +121,7 @@ article.home h6 {
 }
 
 .home{
+	border-top: solid 1px #CCC;
 	border-bottom: solid 1px #CCC;
 }
 
