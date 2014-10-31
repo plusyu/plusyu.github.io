@@ -120,6 +120,10 @@ article.home h6 {
 	color: #f2756a;
 }
 
+.home{
+	padding-top: 40px;
+
+}
 .myhr{
 	border-top: solid 1px #CCC;
 }
