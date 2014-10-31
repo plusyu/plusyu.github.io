@@ -121,7 +121,8 @@ article.home h6 {
 }
 
 .myhr{
-	border-bottom: solid 1px #CCC;
+	height: 1px;
+	border: solid 1px #CCC;
 }
 
 article.home h1 a,
