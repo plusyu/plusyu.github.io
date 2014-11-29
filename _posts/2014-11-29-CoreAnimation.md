@@ -6,6 +6,7 @@ tags: [ios]
 description: Core Animation
 ---
 
+{% highlight ruby %}
 
 -(CGRect) frame  
 {  
@@ -16,6 +17,10 @@ description: Core Animation
      return CGRectMake(x, y, width, height);
 }
 
+{% endhighlight %}
+
+{% highlight ruby %}
+
 -(void) setFrame:(CGRect) rect
 {
     center.x = rect.x + layer.anchorPoint.x * rect.width;
@@ -24,6 +29,7 @@ description: Core Animation
     bounds.height = rect.height;
 }
 
+{% endhighlight %}
 
 任何时候：
 layer.position === center
