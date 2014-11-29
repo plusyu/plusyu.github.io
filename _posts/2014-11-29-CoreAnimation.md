@@ -34,7 +34,7 @@ description: Core Animation
 
 layer.position === center
 
-{% highlight ruby %}
+{% endhighlight %}
 
 bounds.x和bounds.y只控制aView下所有subView的原点坐标。
 
