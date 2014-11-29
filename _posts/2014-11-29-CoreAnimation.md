@@ -6,8 +6,7 @@ tags: [ios]
 description: Core Animation
 ---
 
-
-<pre class="prettyPrint">
+{% highlight ruby %}
 
 -(CGRect) frame  
 {  
@@ -26,16 +25,16 @@ description: Core Animation
     bounds.height = rect.height;
 }
 
-</pre>
+{% endhighlight %}
 
-<pre class="prettyPrint">
 
 任何时候：
+
+{% highlight ruby %}
+
 layer.position === center
 
-</pre>
-
-
+{% endhighlight %}
 
 bounds.x和bounds.y只控制aView下所有subView的原点坐标。
 
