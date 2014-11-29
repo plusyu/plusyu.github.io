@@ -6,8 +6,9 @@ tags: [ios]
 description: Core Animation
 ---
 
-{% highlight ruby %}
 
+<pre class="prettyPrint">
+	
 -(CGRect) frame  
 {  
      float x = center.x - layer.anchorPoint.x * bounds.width;   
@@ -17,9 +18,8 @@ description: Core Animation
      return CGRectMake(x, y, width, height);
 }
 
-{% endhighlight %}
 
-{% highlight ruby %}
+
 
 -(void) setFrame:(CGRect) rect
 {
@@ -29,12 +29,11 @@ description: Core Animation
     bounds.height = rect.height;
 }
 
-{% endhighlight %}
 
 任何时候：
 layer.position === center
 
-
+</pre>
 
 bounds.x和bounds.y只控制aView下所有subView的原点坐标。
 
