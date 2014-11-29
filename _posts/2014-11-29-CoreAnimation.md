@@ -36,6 +36,7 @@ layer.position === center
 
 {% endhighlight %}
 
+
 bounds.x和bounds.y只控制aView下所有subView的原点坐标。
 
 图层的 position 属性是一个 CGPoint 的值，它指定图层相当于它父图层的位置,该值基于父图层的坐标系。
