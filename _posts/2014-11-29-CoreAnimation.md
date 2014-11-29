@@ -6,7 +6,6 @@ tags: [ios]
 description: Core Animation
 ---
 
-{% highlight ruby %}
 
 -(CGRect) frame  
 {  
@@ -24,8 +23,6 @@ description: Core Animation
     bounds.width = rect.width;
     bounds.height = rect.height;
 }
-
-{% endhighlight %}
 
 
 任何时候：
