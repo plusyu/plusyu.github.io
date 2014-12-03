@@ -7,7 +7,7 @@ description: Core Animation
 ---
 
 
- <img src="{{ site.BASE_PATH }}/assets/ico/geometry.png" height="500"  class="img-rounded author-image" />
+ <img src="{{ site.BASE_PATH }}/assets/ico/geometry.png" height="300"  class="img-rounded author-image" />
 
 <pre class="prettyPrint">
 	
