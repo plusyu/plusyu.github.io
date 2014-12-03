@@ -7,6 +7,8 @@ description: Core Animation
 ---
 
 
+ <img src="{{ site.BASE_PATH }}/assets/geometry.png" height="700"  class="img-rounded author-image" />
+
 <pre class="prettyPrint">
 	
 -(CGRect) frame  
