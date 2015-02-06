@@ -38,7 +38,7 @@ tagline:
   {% if paginator.previous_page %}
   <li class="previous">
     {% if paginator.previous_page == 1 %}
-    <a href="{{ site.BASE_PATH }}/" target="_blank">&larr; Newer</a>
+    <a href="{{ site.BASE_PATH }}/" >&larr; Newer</a>
     {% else %}
     <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
     {% endif %}
