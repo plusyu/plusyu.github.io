@@ -95,5 +95,21 @@ super_class则指向这的父类别。
  <img src="{{ site.BASE_PATH }}/assets/ico/objective-c-object-model.png" height="524"  class="img-rounded author-image" />
 
 
+<h3>
+	什么是instancetype?
+</h3>
+
+<p>
+“instancetype is a contextual keyword that is only permitted in the result type of an Objective-C method”
+</p>
+instancetype就只是一个关键字，它告诉编译器回传类型，让编译器可以在编译阶段就有足够的信息来判断程序是否有问题。
+<p>
+<p>
+instancetype 主要目的是为了帮助编译器更了解你的代码，在编程阶段发现问题
+</p>
+	
+
+
+</p>
 
 
