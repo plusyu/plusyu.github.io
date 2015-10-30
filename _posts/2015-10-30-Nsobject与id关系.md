@@ -78,7 +78,17 @@ struct objc_class {
 super_class则指向这的父类别。  
 </p>
 
+<h3>什么是Meta Class</h3>
+<p>
+1、每个Class（NSObject）的isa指针都指向唯一的Class，这个Class称之为Meta Class
 
+2、每个Meta Class的isa指针都是指向最上层的Meta Class，最上层的Meta Class的isa则是指向自己，形成回路
+
+3、每个meta class的super_class指针都是指向它原本类别的super class的meta class,但最上层的Meta Class的super_class则是指向NSObject类别本身。
+
+4、最上层的Class(NSObject),它的Super Class指向nil.
+
+</p>
 
 
 
