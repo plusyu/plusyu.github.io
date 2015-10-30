@@ -6,7 +6,7 @@ tags: [ios]
 description: NSObject id
 ---
 
-1、什么是id
+<h3>什么是id</h3>
 
 在objc.h中定义如下
 {% highlight ruby %}
@@ -75,7 +75,7 @@ struct objc_class {
 
 <p>
 类型也是一个C Struct ，最开始的那个isa指向它的所属类别。
-super_class则指向这的父类别。
+super_class则指向这的父类别。  
 </p>
 
 
