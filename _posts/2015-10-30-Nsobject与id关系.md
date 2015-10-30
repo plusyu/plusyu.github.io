@@ -79,7 +79,7 @@ super_class则指向这的父类别。
 </p>
 
 <h3>什么是Meta Class</h3>
-<p>
+
 
 1、每个Class（NSObject）的isa指针都指向唯一的Class，这个Class称之为Meta Class
 
@@ -89,7 +89,7 @@ super_class则指向这的父类别。
 
 4、最上层的Class(NSObject),它的Super Class指向nil.
 
-</p>
+
 
 
 
