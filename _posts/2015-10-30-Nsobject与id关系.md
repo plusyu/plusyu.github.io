@@ -73,6 +73,11 @@ struct objc_class {
 
 {% endhighlight %}
 
+<p>
+类型也是一个C Struct ，最开始的那个isa指向它的所属类别。
+super_class则指向这的父类别。
+</p>
+
 
 
 
