@@ -6,11 +6,14 @@ tags: [ios]
 description: NSObject id
 ---
 
-<pre class="prettyPrint">
+1、什么是id
 
-xxxxxxxxxxxxxxxxx
+{% highlight ruby %}
 
-</pre>
+/// A pointer to an instance of a class.
+typedef struct objc_object *id;
+
+{% endhighlight %}
 
 
 
