@@ -92,7 +92,7 @@ super_class则指向这的父类别。
 4、最上层的Class(NSObject),它的Super Class指向nil.
 </p>
 
-
+ <img src="{{ site.BASE_PATH }}/assets/ico/objective-c-object-model.png" height="524"  class="img-rounded author-image" />
 
 
 
