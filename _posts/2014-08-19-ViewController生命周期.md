@@ -7,10 +7,21 @@ description: ios 生命周期
 ---
 
 从A跳转到B执行的顺序是：
-MainController  viewWillAppear------->MainController viewDidAppear---------->MainController  viewWillDisappear------->ServerController  viewWillAppear
------->MainController  viewDidDisappear--------->ServerController  viewDidAppear
+B viewDidLoad ------> A viewWillDisappear -------> B viewWillAppear ------->B viewDidAppear ----- A viewDidDisappear
 
 从B返回A执行的顺序是
 
-ServerController  viewWillDisappear------->MainController  viewWillAppear-------->ServerController  viewDidDisappear------>MainController viewDidAppear
+ B viewWillDisappear------->A  viewWillAppear-------->A  viewDidAppear------>B viewDidDisappear
 
+
+
+1、initWithCoder 或者 initWithNibName:Bundle  代码 nil
+2、awakeFromNib
+3、loadView
+4、viewDidLoad
+5、viewWillAppear
+6、viewWillLayoutSubviews  子视图位置布局
+7、viewDidLayoutSubviews
+8、viewDidAppear
+9、viewWillDisappear
+10、viewDidDisappear
