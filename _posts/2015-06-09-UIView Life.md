@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS  UIView
+title: UIView Life
 categories: [iOS]
 tags: [iOS]
 description: iOS UIView
