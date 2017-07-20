@@ -25,26 +25,39 @@ sudo rvm install ruby-2.1.4
 
 
 <h3>gem源更换</h3>
+<h6>显示当前源</h6>
 
 {% highlight ruby %}
 
 gem sources -l
 
-显示当前源
+{% endhighlight %}
 
-移除https://rubygems.org源
+<h6>移除当前源</h6>>
+
+{% highlight ruby %}
 
 gem sources --remove https://rubygems.org/
 
-增加https://ruby.taobao.org/源
+{% endhighlight %}
+
+<h6>增加当前源</h6>>
+
+{% highlight ruby %}
 
 gem sources -a http://ruby.taobao.org/
 
-更新缓存
+{% endhighlight %}
+
+
+<h6>更新缓存</h6>
+
+{% highlight ruby %}
 
 gem sources -u 
 
 {% endhighlight %}
+
 
 
 <h3>安装</h3>
