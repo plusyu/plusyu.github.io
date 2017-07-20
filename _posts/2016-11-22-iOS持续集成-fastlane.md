@@ -33,7 +33,7 @@ gem sources -l
 
 {% endhighlight %}
 
-<h6>移除当前源</h6>>
+<h6>移除当前源</h6>
 
 {% highlight ruby %}
 
@@ -41,7 +41,7 @@ gem sources --remove https://rubygems.org/
 
 {% endhighlight %}
 
-<h6>增加当前源</h6>>
+<h6>增加当前源</h6>
 
 {% highlight ruby %}
 
