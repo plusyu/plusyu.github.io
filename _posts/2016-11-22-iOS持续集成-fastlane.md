@@ -5,6 +5,47 @@ categories: [工具]
 tags: [工具]
 description: ios持续集成
 ---
+<h3>安装Homebrew</h3>
+
+{% highlight ruby %}
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+{% endhighlight %}
+
+<h3>安装Ruby</h3>
+
+{% highlight ruby %}
+
+rvm list known
+
+sudo rvm install ruby-2.1.4
+
+{% endhighlight %}
+
+
+<h3>gem源更换</h3>
+
+{% highlight ruby %}
+
+gem sources -l
+
+显示当前源
+
+移除https://rubygems.org源
+
+gem sources --remove https://rubygems.org/
+
+增加https://ruby.taobao.org/源
+
+gem sources -a http://ruby.taobao.org/
+
+更新缓存
+
+gem sources -u 
+
+{% endhighlight %}
+
 
 <h3>安装</h3>
 
